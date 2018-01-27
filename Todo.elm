@@ -1,9 +1,12 @@
+module ToDoMVC exposing(..)
+
 import Html exposing (Html, section, header, h1, div, input, text, ul, li, button)
 import Html.Events exposing (..)
 import Json.Decode as Json
 import Html.Attributes exposing (..)
 import String
 
+main : Program Never Model Msg
 main =
   Html.beginnerProgram
     { model = model
