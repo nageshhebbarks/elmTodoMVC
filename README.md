@@ -3,4 +3,4 @@ I am trying to learn [elm-lang](http://elm-lang.org/). I could run through the e
 
 This is my attempt to breakdown and build TODO app ground up and learn the language by building.
 
- 
+Build using `elm-make Todo.elm --output=ToDoMVC.js`
